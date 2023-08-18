@@ -172,3 +172,12 @@ h1 {
   font-weight: bolder;
   color: black;
 }
+
+button {
+  margin-left: 8rem;
+  border-radius: 1rem;
+}
+
+button:hover {
+  scale: 105%;
+}
