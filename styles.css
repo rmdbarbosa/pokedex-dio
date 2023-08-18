@@ -1,0 +1,99 @@
+* {
+  font-family: "Roboto", sans-serif;
+}
+
+body {
+  background-color: #e1e6ee;
+}
+
+.pokecard {
+  display: grid;
+  place-items: center;
+  background-color: #46d1b2;
+  margin: 3rem;
+  border-radius: 1.5rem;
+  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+  max-width: 300px;
+}
+
+img {
+  max-width: 150px;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+h1 {
+  margin: 0;
+}
+
+.space {
+  margin: 1rem;
+}
+
+.pokecard__upper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+
+.pokecard__title {
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+  color: white;
+  gap: 0.2rem;
+}
+
+.pokecard__number {
+  margin-left: auto;
+  font-size: 0.5rem;
+  color: white;
+}
+
+.pokecard__type {
+  display: flex;
+  gap: 0.5rem;
+  margin: 0px;
+}
+
+.pokecard__type > li {
+  border-radius: 1rem;
+  gap: 0.5rem;
+  font-size: 0.625rem;
+  padding: 0.25rem 0.5rem;
+  color: white;
+  background-color: #61e0c8;
+}
+
+.pokecard__description {
+  background-color: white;
+  width: 100%;
+  border-radius: 1.5rem;
+}
+
+.pokecard__info {
+  display: flex;
+  font-size: 0.8rem;
+  color: gray;
+  gap: 1rem;
+  justify-content: center;
+}
+
+.pokecard__about {
+  margin-left: 1.3rem;
+  display: flex;
+  gap: 1.5rem;
+}
+
+.pokecard__about > ul {
+  display: flex;
+  flex-direction: column;
+  gap: 0.4rem;
+  color: gray;
+  font-size: 0.7rem;
+}
